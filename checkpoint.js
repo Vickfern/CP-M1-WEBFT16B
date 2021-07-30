@@ -317,6 +317,7 @@ var binarySearch = function(array, target) {
 
 var specialSort = function(array, orderFunction) {
     // Tu código aca:
+    var aux = 0;
     var swap = true;
     while (swap) {
         swap = false;
